@@ -1,15 +1,15 @@
-# Projet 09 Déboguez_724 évents
+# 724 Events
 
-724 événements
-Description
-L'application est le site d'une agence événementielle.
+## Description
+L'application est le site d'une agence evenementielle.
+## Pre-requis
+- NodeJS  >= v16.14.1
 
-Pré-requis
-NodeJS >= v16.14.1
-Installation
-yarn install
-Lancement de la demande
-yarn start
-Tests
-yarn test
+## Installation
+- `yarn install`
 
+## Lancement de l'application
+- `yarn start`
+
+## Tests
+- `yarn test`
