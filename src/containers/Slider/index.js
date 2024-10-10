@@ -63,7 +63,5 @@ const Slider = () => {
     </div>
   );
 };
-// ligne 34 à 50
-
 
 export default Slider;
