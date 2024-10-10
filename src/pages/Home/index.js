@@ -15,14 +15,13 @@ import { useData } from '../../contexts/DataContext';
 const Page = () => {
   const { data } = useData();
   const last = data ? data.events[data.events.length - 1] : null;
-
   return (
     <>
       <header>
         <Menu />
       </header>
       <main>
-        <section className='SliderContainer'> 
+        <section className='SliderContainer'>
           <Slider />
         </section>
         <section className='ServicesContainer' id='nos-services'>
@@ -118,7 +117,7 @@ const Page = () => {
           <h3>Notre derniére prestation</h3>
           {last && (
             <EventCard
-              imageSrc={last.cover}  // First or Correction  image path here if needed
+              imageSrc={last.cover}
               title={last.title}
               date={new Date(last.date)}
               small
