@@ -13,7 +13,10 @@ L'application est le site d'une agence evenementielle.
 
 ## Tests
 - `yarn test`
-
+- 
+les tests via le treminal ou la commande pour voir tous bugges.
+- ##  yarn test —watch.
+ 
 
 Journal des modifications
 
